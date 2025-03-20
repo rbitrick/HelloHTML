@@ -6,78 +6,51 @@
         <link rel="icon" type="image/png" href="media/images/favicon.png">
     </head>
     <body>
-        <h1>Welcome to my first page</h1>
-        <hr></hr>
-        <pre>
-            Hello world
-            Welcome to my first page
-            This is me testing out the "pre" tag
-        </pre>
-        <ul>
-            <li>
-                <a 
-                href="lyrics.html"
-                target="_blank"
-                title="The Last Baron - Mastodon">
-                <button style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">Lyric Page</button>
-                </a>
-            </li>
-        <br>
-            <li>
-                <a 
-                href="audio.html"
-                target="_blank"
-                title="Maximum Velocity">
-                <button style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">Music Page</button>
-                </a>
-            </li>
-        <br>
-            <li>
-                <a 
-                href="video.html"
-                target="_blank"
-                title="Videos">
-                <button style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">Video Page</button>
-                </a>
-            </li>
-        <br>
-            <li>
-                <a 
-                href="table.html"
-                target="_blank"
-                title="Table">
-                <button style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">Table Page</button>
-                </a>
-            </li>
-        <br>
-            <li>
-                <a 
-                target="_blank"
-                title="Javascript Intro">
-                <button onclick="myFunc(1)" style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">Sign my guestbook!</button>
-                </a>
-            </li>       
-        <br>
-            <li>
-                <a 
-                target="_blank"
-                title="Javascript Intro">
-                <button onclick="myFunc(0)" style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">JS Func</button>
-                </a>
-            </li>                   
-        </ul>
 
-        <p id="jstest">Javascript test string</p>
+        <header style="background-color: aquamarine;">
+            <h1>Welcome to my first page</h1>
+            <a href="index.html">Home </a>
+            <a href="lyrics.html">Lyrics </a>
+            <a href="audio.html">Audio </a>
+            <a href="video.html">Video </a>
+            <a href="table.html">Table </a>
+            <a href="guestbook.html">Guestbook </a>
 
-        <script>
-            function myFunc(x){
-                if (x === 1){
-                    window.open("/guestbook.html");
+
+
+        </header>
+
+        <main>
+
+            <hr></hr>
+            <pre>
+                Hello world
+                Welcome to my first page
+                This is me testing out the "pre" tag
+            </pre>
+            <ul>
+                <li>
+                    <a 
+                    target="_blank"
+                    title="Javascript Intro">
+                    <button onclick="myFunc(0)" style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">JS Func</button>
+                    </a>
+                </li>                   
+            </ul>
+
+            <p id="jstest">Javascript test string</p>
+
+            <script>
+                function myFunc(x){
+                    if (x === 1){
+                        window.open("/guestbook.html");
+                    }
+                    else
+                    document.getElementById("jstest").innerHTML = "This test past!"
                 }
-                else
-                document.getElementById("jstest").innerHTML = "This test past!"
-            }
-        </script>
+            </script>
+
+        </main>
     
     
     </body>
