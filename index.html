@@ -54,15 +54,27 @@
                 <a 
                 target="_blank"
                 title="Javascript Intro">
-                <button onclick="myFunc()" style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">JS Func</button>
+                <button onclick="myFunc(1)" style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">Sign my guestbook!</button>
                 </a>
-            </li>            
+            </li>       
+        <br>
+            <li>
+                <a 
+                target="_blank"
+                title="Javascript Intro">
+                <button onclick="myFunc(0)" style="font-size: 25px; background-color:gray; color:lightblue; border-radius: 5px;">JS Func</button>
+                </a>
+            </li>                   
         </ul>
 
         <p id="jstest">Javascript test string</p>
 
         <script>
-            function myFunc(){
+            function myFunc(x){
+                if (x === 1){
+                    window.open("/guestbook.html");
+                }
+                else
                 document.getElementById("jstest").innerHTML = "This test past!"
             }
         </script>
