@@ -1,52 +1,62 @@
+@font-face {
+    src: url(/fonts/Boldonse-Regular.ttf);
+    font-family: Boldonse;
+}
+@font-face {
+    src: url(/fonts/BigShoulders-Light.ttf);
+    font-family: Big-Shoulders;
+}
+
 header{
     background-color: rgb(81, 81, 81);
     padding: 2%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Big-Shoulders;
+    letter-spacing: 3px;
 }
 body{
     background-color: rgb(120, 121, 122);
 }
 h1{
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Boldonse;
 
 }
 h2{
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Boldonse;
 
 }
 h3{
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Boldonse;
 
 }
 h4{
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Boldonse;
 
 }
 h5{
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Boldonse;
 
 }
 h6{
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Boldonse;
 
 }
 pre{
     color: aliceblue;
-    font-family: "lucida console";
+    font-family: Big-Shoulders;
 
 }
 p{
     color: aliceblue;
-    font-family: "lucida console";
+    font-family: Big-Shoulders;
 }
 label{
     color: aliceblue;
-    font-family: "lucida console";
+    font-family: Big-Shoulders;
 
 }
