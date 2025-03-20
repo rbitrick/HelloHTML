@@ -2,13 +2,13 @@
 <html>
     <head>
 
-        <title>My First web page!</title>
+        <title>Table Page</title>
         <link rel="icon" type="image/png" href="media/images/favicon.png">
     </head>
     <body>
 
         <header style="background-color: darkgray; padding: 2%;">
-            <h1>Unryaned Home Page</h1>
+            <h1>Table Page</h1>
             <a href="index.html" style="font-size: 20px; background-color:gray; color:lightblue; border-radius: 5px; padding: 2px; margin: 1px;" >Home</a>
             <a href="lyrics.html" style="font-size: 20px; background-color:gray; color:lightblue; border-radius: 5px; padding: 2px; margin: 1px;" >Lyrics </a>
             <a href="audio.html" style="font-size: 20px; background-color:gray; color:lightblue; border-radius: 5px; padding: 2px; margin: 1px;" >Audio </a>
@@ -18,36 +18,28 @@
         </header>
         <hr></hr>
 
-        <main>
+        <h4>Store Hours</h4>
+        <table border = "1" style="background-color: black;">
+            <tr align="center" style="background-color: lightblue;">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr align="center" style="background-color: aliceblue;">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>10-2</td>
 
-            <pre>
-                Hello world
-                Welcome to my first page
-                This is me testing out the "pre" tag
-            </pre>
-            <ul>
-                <li>
-                    <a 
-                    target="_blank"
-                    title="Javascript Intro">
-                    <button onclick="myFunc(0)" style="font-size: 20px; background-color:gray; color:lightblue; border-radius: 5px;">JS Func</button>
-                    </a>
-                </li>                   
-            </ul>
-
-            <p id="jstest">Javascript test string</p>
-
-            <script>
-                function myFunc(x){
-                    if (x === 1){
-                        window.open("/guestbook.html");
-                    }
-                    else
-                    document.getElementById("jstest").innerHTML = "This test past!"
-                }
-            </script>
-
-        </main>
+            </tr>
+        </table>
     
     
     </body>
