@@ -1,34 +1,52 @@
 header{
     background-color: rgb(81, 81, 81);
     padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: rgb(120, 121, 122);
 }
 h1{
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 h2{
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 h3{
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 h4{
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 h5{
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 h6{
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 pre{
     color: aliceblue;
+    font-family: "lucida console";
+
 }
 p{
     color: aliceblue;
+    font-family: "lucida console";
 }
 label{
     color: aliceblue;
+    font-family: "lucida console";
+
 }
