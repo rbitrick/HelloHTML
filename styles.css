@@ -12,6 +12,18 @@ header{
     padding: 2%;
     font-family: Big-Shoulders;
     letter-spacing: 3px;
+    border-bottom: 10px outset tomato;
+    border-width: 10px;
+    border-color: tomato;
+    border-radius: 25px;
+}
+a{
+    font-size: 20px; 
+    background-color:gray; 
+    color:lightblue; 
+    border-radius: 5px; 
+    padding: 2px; 
+    margin: 1px;
 }
 body{
     background-color: rgb(120, 121, 122);
@@ -19,6 +31,8 @@ body{
 h1{
     color: aliceblue;
     font-family: Boldonse;
+    text-shadow: 5px 5px 2px aliceblue;
+
 
 }
 h2{
