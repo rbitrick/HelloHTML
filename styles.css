@@ -18,6 +18,19 @@ header{
     border-radius: 25px;
     margin: auto;
     text-align: center;
+    height: auto;
+}
+div{
+    background-color: rgb(81, 81, 81);
+    padding: 2%;
+    font-family: Big-Shoulders;
+    letter-spacing: 3px;
+    border-bottom: 10px outset tomato;
+    border-width: 10px;
+    border-color: tomato;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
 }
 #hdrbtn{
     font-size: 20px; 
