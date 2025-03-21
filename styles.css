@@ -29,11 +29,32 @@ div{
     border-width: 10px;
     border-color: tomato;
     border-radius: 25px;
-    margin: auto;
+    margin: 10px;
     text-align: center;
     display: block;
     width: auto;
     height: auto;
+}
+form{
+    background-color: rgb(81, 81, 81);
+    padding: 10px;
+    font-family: Big-Shoulders;
+    letter-spacing: 3px;
+    border-bottom: 10px outset tomato;
+    border-width: 10px;
+    border-color: tomato;
+    border-radius: 25px;
+    margin: 5px;
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+}
+input{
+    margin: 5px;
+    padding: 10px;
+
+
 }
 #hdrbtn{
     font-size: 20px; 

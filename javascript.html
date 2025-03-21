@@ -25,9 +25,23 @@
 
         </header>
         <hr></hr>
-        <div>
+        <form>
+            <h1>Temperature Conversion</h1>
+            <input type="number" id="textbox" value="0"><br>
 
-        </div>
+            <input type="radio" id="toF" name="unit">
+            <label for="toF">Celcius → Fahrenheit</label><br>
+
+            <input type="radio" id="toC" name="unit">
+            <label for="toF">Fahrenheit → Celcius</label><br>
+
+            <button type="button" onclick="convert()">Submit</button>
+
+            <p id="result"></p>
+            
+            <script src="index.js"></script>
+
+        </form>
     
     </body>
 
