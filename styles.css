@@ -31,6 +31,9 @@ div{
     border-radius: 25px;
     margin: auto;
     text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
 }
 #hdrbtn{
     font-size: 20px; 
@@ -97,6 +100,11 @@ button{
     background-color:gray; 
     color:white; 
     border-radius: 5px; 
-    padding: 2px; 
-    margin: 1px;
+    padding: 5px; 
+    margin: 10px;
+    font-family: Big-Shoulders;
+
+}
+video{
+    height: 250px;
 }
