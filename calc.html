@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>My First web page!</title>
+        <link rel="icon" type="image/png" href="media/images/favicon.png">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+        <header >
+            <h1>Unryaned's Home Page</h1>
+            <a id="hdrbtn" href="index.html">Home</a>
+            <a id="hdrbtn" href="lyrics.html" >Lyrics</a>
+            <a id="hdrbtn" href="audio.html" >Audio</a>
+            <a id="hdrbtn" href="video.html" >Video</a>
+            <a id="hdrbtn" href="table.html" >Table</a>
+            <a id="hdrbtn" href="guestbook.html" >Guestbook</a>
+            <a id="hdrbtn" href="learncss.html" >CSS Scratch Pad</a>
+            <a id="hdrbtn" href="javascript.html" >JS Scratch Pad</a>
+
+        </header>
+        <hr></hr>
+
+
+
+            <div id ="calc">
+                <input id="calcdisplay" readonly>
+                <div id="calckeys">
+                    <button id = "calcbutt" onclick="appendToDisplay('+')">+</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('7')">7</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('8')">8</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('9')">9</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('-')">-</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('4')">4</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('5')">5</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('6')">6</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('*')">*</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('1')">1</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('2')">2</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('3')">3</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('/')">/</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('0')">0</button>
+                    <button id = "calcbutt" onclick="appendToDisplay('.')">.</button>
+                    <button id = "calcbutt" onclick="calculate()">=</button>
+                    <button id = "calcbutt" onclick="clearDisplay()">C</button>
+
+
+                </div>
+
+            </div>        
+            
+            <script src="calc.js"></script>
+
+    
+    </body>
+
+</html>
